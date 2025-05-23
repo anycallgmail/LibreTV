@@ -71,11 +71,10 @@ function initDouban() {
         
         // 添加事件监听
         doubanToggle.addEventListener('change', function(e) {
-            const isChecked = e.target.checked;
-            localStorage.setItem('doubanEnabled', isChecked);
+            localStorage.setItem('doubanEnabled', e.target.checked ? 'true' : 'false');
             
             // 更新开关外观
-            if (isChecked) {
+            if (e.target.checked) {
                 toggleBg.classList.add('bg-pink-600');
                 toggleDot.classList.add('translate-x-6');
             } else {
