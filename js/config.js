@@ -261,6 +261,4 @@ const CUSTOM_API_CONFIG = {
 // 隐藏内置黄色采集站API的变量
 const HIDE_BUILTIN_ADULT_APIS = false;
 
-// 默认开关配置
-export DEFAULT_YELLOW_FILTER = false;
-const DEFAULT_DOUBAN_ENABLED = true;
+
