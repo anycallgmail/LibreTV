@@ -262,5 +262,5 @@ const CUSTOM_API_CONFIG = {
 const HIDE_BUILTIN_ADULT_APIS = false;
 
 // 默认开关配置
-const DEFAULT_YELLOW_FILTER = false;
+export DEFAULT_YELLOW_FILTER = false;
 const DEFAULT_DOUBAN_ENABLED = true;
