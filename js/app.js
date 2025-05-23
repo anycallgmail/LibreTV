@@ -506,7 +506,7 @@ function setupEventListeners() {
     const yellowFilterToggle = document.getElementById('yellowFilterToggle');
     if (yellowFilterToggle) {
         yellowFilterToggle.addEventListener('change', function(e) {
-            localStorage.setItem('yellowFilterEnabled', e.target.checked);
+            localStorage.setItem('yellowFilterEnabled', e.target.checked ? 'true' : 'false');
 
             // 控制黄色内容接口的显示状态
             const adultdiv = document.getElementById('adultdiv');
